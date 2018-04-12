@@ -9,13 +9,6 @@ import com.vanguard.property.portal.data.entity.Book;
 import com.vanguard.property.portal.data.repository.BookRepository;
 import com.vanguard.property.portal.model.BookRequest;
 
-/**
- * {@code BookService} provides CRUD functioanality on book.
- * <p/>
- *
- * @author Indra Basak
- * @since 12/7/17
- */
 @Service
 public class BookService {
 

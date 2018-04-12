@@ -4,13 +4,6 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
-/**
- * {@code BookRequest} represents a response during book creation.
- * <p/>
- *
- * @author Indra Basak
- * @since 12/7/17
- */
 @Data
 public class BookRequest {
 

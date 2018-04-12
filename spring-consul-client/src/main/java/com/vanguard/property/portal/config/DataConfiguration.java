@@ -8,13 +8,6 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/**
- * {@code DataConfiguration} configures an embedded database.
- * <p/>
- *
- * @author Indra Basak
- * @since 12/7/17
- */
 @Configuration
 @EnableJpaRepositories(basePackages = {"com.vanguard.property.portal.data.repository"})
 @EnableTransactionManagement

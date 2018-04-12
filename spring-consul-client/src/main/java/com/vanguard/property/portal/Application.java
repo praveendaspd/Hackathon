@@ -7,14 +7,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.ComponentScan;
 
-/**
- * {@code BookApplication} represents the entry point for the Spring
- * boot application example.
- * <p/>
- *
- * @author Indra Basak
- * @since 12/7/17
- */
+
 @SpringBootApplication
 @EnableAutoConfiguration
 @EnableConfigurationProperties

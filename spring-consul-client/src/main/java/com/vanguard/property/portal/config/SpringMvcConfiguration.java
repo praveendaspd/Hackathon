@@ -5,13 +5,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.filter.CommonsRequestLoggingFilter;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-/**
- * {@code SpringMvcConfiguration} maps urls to views.
- * <p/>
- *
- * @author Indra Basak
- * @since 12/7/17
- */
 @Configuration
 public class SpringMvcConfiguration extends WebMvcConfigurerAdapter {
 

@@ -13,13 +13,6 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-/**
- * {@code SwaggerConfiguration} configures Swagger UI.
- * <p/>
- *
- * @author Indra Basak
- * @since 12/7/17
- */
 @Configuration
 @EnableSwagger2
 @SuppressWarnings({"squid:CallToDeprecatedMethod"})
@@ -51,8 +44,8 @@ public class SwaggerConfiguration {
      * @return API information
      */
     private ApiInfo apiInfo(String title, String description) {
-        Contact contact = new Contact("Indra Basak", "",
-                "indra@basak.com");
+        Contact contact = new Contact("Praveen Das", "",
+                "praveen.sivadas@vanguard.com.au");
         return new ApiInfo(title, description, "1.0.0",
                 "terms of service url",
                 contact, "license", "license url",

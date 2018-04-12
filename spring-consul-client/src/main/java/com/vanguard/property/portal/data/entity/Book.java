@@ -12,13 +12,6 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
 
 
-/**
- * {@code Book} represents a book entity.
- * <p/>
- *
- * @author Indra Basak
- * @since 12/7/17
- */
 @Entity
 @Table(name = "book")
 @Data
